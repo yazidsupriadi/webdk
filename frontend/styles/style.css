@@ -1,0 +1,265 @@
+body{
+	background-color: #fff;
+	font-family: 'Assistant', sans-serif;
+	color: #071C4D;
+}
+
+.btn-login{
+	background-color: #25ED75;
+	color: #fff;
+
+	
+}
+.navbar .navbar-brand{
+	font-size: 32px ;
+	font-weight: bold;
+	color: #25ED75;
+}
+.btn-navbar-right{
+	margin-top: -10px !important;
+	margin-bottom: -8px !important;
+	margin-right: -18px !important;
+	height: 100px;
+	border-radius: 0px;
+}
+
+.btn-login a:hover{
+	color :#fff;
+}
+
+header {
+	padding: 180px 0 165px;
+	margin-top: -70px;
+	background-image: url('../images/header/1.jpg');
+	background-size: cover;
+}
+
+
+
+
+
+.btn-get-started{
+	background-color: #ed8000;
+	color: #fff;
+}
+
+header h1{
+	margin-top: 40px; 
+	font-size: 40px;
+	font-weight: bold;
+	color: #000a12;
+}
+
+header p{
+	font-size: 20px;
+	color: white;
+}
+
+
+.section-popular-heading{
+	margin-top: 50px;
+	margin-bottom: 20px;
+
+}
+.section-popular-heading h2 {
+	color:  #25ED75;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+
+.section-popular-heading p {
+	color: ;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+}
+
+
+.slider{
+	overflow: hidden;
+	height: 350px;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider figure img{
+
+	width: 100%;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slidy infinite;
+}
+
+.slider figure p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0%
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -300%;
+	}
+
+	46%{
+		left: -300%;
+	}
+
+	48%{
+		left: -400%;
+	}
+
+	58%{
+		left: -400%;
+	}
+
+	60%{
+		left: -300%;
+	}
+
+	70%{
+		left: -300%;
+	}
+
+	72%{
+		left: -200%;
+	}
+
+	82%{
+		left: -200%;
+	}
+
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: -100%;
+	}
+
+	96%{
+		left: 0%;
+	}
+
+	100%{
+		left: 0%;
+	}
+}
+
+
+.pleasure-content .section-pleasure .card-pleasure{
+	min-height: 200px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	border-style: none;
+}
+.pleasure-content .section-pleasure .card-pleasure .pleasure-title{
+	color: #24C0D9;
+}
+.pleasure-content .section-pleasure .card-pleasure .pleasure-detail{
+	margin-left: 60px;
+	margin-top: -60px;
+}
+.section-popular-content .section-popular-fasilitas .card-fasilitas{
+	min-height: 400px;
+	background-color: #ddd;
+	color: #fff;
+	background-size: cover;
+
+}
+.section-popular-fasilitas{
+	margin-top: 20px;
+
+}
+.section-popular-fasilitas h2 {
+	color:  #25ED75;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+
+.section-popular-fasilitas p {
+	color: ;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+}
+
+.section-popular-content .section-popular-fasilitas .card-fasilitas{
+	min-height: 400px;
+	background-color: #ddd;
+	color: #fff;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+
+.section-popular-content .section-popular-fasilitas .card-fasilitas .fasilitas-country{
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.section-popular-content .section-popular-fasilitas .card-fasilitas .fasilitas-location{
+	font-size: 20px;
+	color: #fff;
+}
+
+
+.section-popular-content .section-popular-fasilitas .card-fasilitas .fasilitas-button{
+	background-color:#ed8000;
+	color: #fff; 
+	margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-fasilitas .card-fasilitas .fasilitas-button a:hover{
+	background-color: #071C4D;
+	color: #fff; 
+}
+
+
+footer{
+	background-color: #25ED75;
+}
+
+footer  h3{
+	color: #fff;
+}
+footer  h5{
+	color: #fff;
+}
+footer  a{
+	color: #fff;
+}
