@@ -263,3 +263,11 @@ footer  h5{
 footer  a{
 	color: #fff;
 }
+
+
+.popular-news article .feature{
+	height: 100px;
+	box-sizing: border-box;
+	margin-right: 5px;
+	margin-left: 5px;
+}
